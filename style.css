@@ -1,0 +1,29 @@
+h1{
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: black;
+    animation: background 10s ease 0s;
+}
+
+@keyframes background {
+    10% {background-color: red;}
+    20% {background-color: orangered;}
+    30% {background-color: orange;}
+    40% {background-color: yellow;}
+    50% {background-color: green;}
+    60% {background-color: blue;}
+    70% {background-color: indigo;}
+    80% {background-color: purple;}
+    90% {background-color: pink;}
+    100% {background-color: ;}
+
+}
